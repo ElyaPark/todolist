@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+li{
+    width: 200px;
+}
+
+.header {
+    background-color: #040506;
+    color: white;
+    padding: 15px;
+    text-align: left; 
+    border-radius: 10px;
+}
+
+
+.task-input {
+    display: inline-block;
+    background: left; 
+    background-color: #942222;
+    margin: 10px 0 10px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#new-task {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#add-task {
+    padding: 10px 20px;
+    background-color: #040506;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #0056b3;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 22%;
+   
+}
+
+.column h2 {
+    text-align: left;
+    background-color: #c6bebe;
+    padding: 10px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #9422223b;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #942222;
+}
+
+.clear-trash-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#clear-trash {
+   padding: 10px 20px;
+    background-color: #040506;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#clear-trash:hover {
+    background-color: #942222;
+}
+.reset-button {
+    display: block;
+    width: 50%;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #942222; /* Красный цвет */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .reset-button:hover {
+    background-color: #942222; /* Более тёмный красный при наведении */
+  }
+  
+  .reset-button:active {
+    background-color: #cc0000; /* Ещё темнее при нажатии */
+  }
+  
+  .reset-button:disabled {
+    background-color: #f2f2f2; /* Серый цвет для отключённой кнопки */
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
